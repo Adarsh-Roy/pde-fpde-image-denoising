@@ -53,28 +53,33 @@ Then check the instructions for installing `torch_pdegraph` locally [here](https
 ## 🚀 Running the Code
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/your-username/non-local-pdes-image-processing.git
-   cd non-local-pdes-image-processing
+   git clone https://github.com/Adarsh-Roy/pde-fpde-image-processing.git
+   cd pde-fpde-image-processing
    ```
 
 2. For fractional PDE model:
+
    ```bash
    jupyter notebook fpde.ipynb
    ```
 
 3. For non-local PDEs on graphs:
+
    ```bash
    jupyter notebook pde_big_graph.ipynb
    # or try pde_small_graph.ipynb or pde_mid_graph.ipynb
    ```
 
 4. To compute PSNR of results:
+
    ```bash
    jupyter notebook psnr.ipynb
    ```
 
 5. For direct PyTorch-based graph PDE experiments:
+
    ```bash
    python pLaplacianDiffusion.py
    ```
@@ -109,7 +114,7 @@ Visual comparisons and figures are included in the `main.pdf`.
 ## 👨‍💻 Authors
 
 - **Adarsh Roy** - [GitHub](https://github.com/Adarsh-Roy)
-- **Abhinna Agarwal** - [GitHub](https://github.com/)
+- **Abhinna Agarwal** - [GitHub](https://github.com/abhinnAg)
 
 Supervised by: **Dr. Mani Mehra**, IIT Delhi
 
@@ -121,11 +126,10 @@ Supervised by: **Dr. Mani Mehra**, IIT Delhi
 - Elmoataz et al., *Morphological PDEs on Graphs* (2012)
 - Lindqvist, *Notes on the p-Laplace Equation* (2006)
 - Aronsson, *Infinity Laplacian Theory* (1967)
-- torch_pdegraph: https://github.com/aGIToz/Pytorch_pdegraph
+- torch_pdegraph: <https://github.com/aGIToz/Pytorch_pdegraph>
 
 ---
 
 ## 📄 License
 
 This codebase is intended for educational and research use only. License can be added as needed.
-
