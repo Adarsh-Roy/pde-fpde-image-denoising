@@ -129,7 +129,3 @@ Supervised by: **Dr. Mani Mehra**, IIT Delhi
 - torch_pdegraph: <https://github.com/aGIToz/Pytorch_pdegraph>
 
 ---
-
-## 📄 License
-
-This codebase is intended for educational and research use only. License can be added as needed.
