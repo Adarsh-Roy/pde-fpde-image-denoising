@@ -4,7 +4,7 @@ This repository contains the complete code implementation and results for our B.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project explores the use of **non-local morphological Partial Differential Equations (PDEs)** and **p-Laplacian operators** on graph structures for advanced image denoising and smoothing.
 
@@ -16,11 +16,11 @@ We extend traditional local models with **graph-based non-local operators** and 
 
 A complete PDF report of the project including theory, methodology, and results is available here:
 
-👉 [`main.pdf`](./main.pdf)
+[`main.pdf`](./main.pdf)
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 .
@@ -37,7 +37,7 @@ A complete PDF report of the project including theory, methodology, and results 
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Make sure Python ≥ 3.8 is installed. Then install dependencies:
 
@@ -50,7 +50,7 @@ Then check the instructions for installing `torch_pdegraph` locally [here](https
 
 ---
 
-## 🚀 Running the Code
+## Running the Code
 
 1. Clone the repository:
 
@@ -86,7 +86,7 @@ Then check the instructions for installing `torch_pdegraph` locally [here](https
 
 ---
 
-## 🔌 Dependencies and Libraries
+## Dependencies and Libraries
 
 This project heavily uses:
 
@@ -97,7 +97,7 @@ Special thanks to the developers of **`torch_pdegraph`** for enabling easy-to-us
 
 ---
 
-## 📊 Sample Results
+## Sample Results
 
 **Graph PDE Denoising** with different α and β values:
 
@@ -111,7 +111,7 @@ Visual comparisons and figures are included in the `main.pdf`.
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 
 - **Adarsh Roy** - [GitHub](https://github.com/Adarsh-Roy)
 - **Abhinna Agarwal** - [GitHub](https://github.com/abhinnAg)
@@ -120,7 +120,7 @@ Supervised by: **Dr. Mani Mehra**, IIT Delhi
 
 ---
 
-## 📚 References
+## References
 
 - Bougleux et al., *Nonlocal Regularization on Weighted Graphs* (2009)
 - Elmoataz et al., *Morphological PDEs on Graphs* (2012)
