@@ -16,7 +16,7 @@ We extend traditional local models with **graph-based non-local operators** and 
 
 A complete PDF report of the project including theory, methodology, and results is available here:
 
-[`main.pdf`](./main.pdf)
+[main.pdf](https://github.com/Adarsh-Roy/pde-fpde-image-denoising/blob/main/main.pdf)
 
 ---
 
@@ -55,8 +55,8 @@ Then check the instructions for installing `torch_pdegraph` locally [here](https
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Adarsh-Roy/pde-fpde-image-processing.git
-   cd pde-fpde-image-processing
+   git clone https://github.com/Adarsh-Roy/pde-fpde-image-denoising.git
+   cd pde-fpde-image-denoising
    ```
 
 2. For fractional PDE model:
@@ -107,7 +107,7 @@ Special thanks to the developers of **`torch_pdegraph`** for enabling easy-to-us
 
 **Fractional PDE Results** with α ∈ [1.0, 2.2] showed improved edge preservation and reduced noise for intermediate values.
 
-Visual comparisons and figures are included in the `main.pdf`.
+Visual comparisons and figures are included in [main.pdf](https://github.com/Adarsh-Roy/pde-fpde-image-denoising/blob/main/main.pdf).
 
 ---
 
@@ -122,10 +122,21 @@ Supervised by: **Dr. Mani Mehra**, IIT Delhi
 
 ## References
 
-- Bougleux et al., *Nonlocal Regularization on Weighted Graphs* (2009)
-- Elmoataz et al., *Morphological PDEs on Graphs* (2012)
-- Lindqvist, *Notes on the p-Laplace Equation* (2006)
-- Aronsson, *Infinity Laplacian Theory* (1967)
-- torch_pdegraph: <https://github.com/aGIToz/Pytorch_pdegraph>
+### Main papers
+
+- **PDE / graph-based model:** Abderrahim Elmoataz, Xavier Desquesnes, and Olivier Lézoray. [*Non-Local Morphological PDEs and p-Laplacian Equation on Graphs With Applications in Image Processing and Machine Learning*](https://doi.org/10.1109/JSTSP.2012.2216504). IEEE Journal of Selected Topics in Signal Processing, 6(7), 764–779, 2012. Introduces the graph operators that interpolate between the Laplacian and infinity Laplacian, used for the project's graph-based denoising experiments.
+- **FPDE / fractional-order model:** Jian Bai and Xiang-Chu Feng. [*Fractional-Order Anisotropic Diffusion for Image Denoising*](https://doi.org/10.1109/TIP.2007.904971). IEEE Transactions on Image Processing, 16(10), 2492–2502, 2007. Provides the fractional-order anisotropic diffusion model and Fourier-domain numerical scheme used for the project's fractional denoising experiments.
+
+### Supporting references
+
+- S. Bougleux, A. Elmoataz, and M. Melkemi. [*Local and Nonlocal Discrete Regularization on Weighted Graphs for Image and Mesh Processing*](https://bougleux.users.greyc.fr/articles/bougleux-ijcv09.pdf). International Journal of Computer Vision, 84, 220–236, 2009.
+- V.-T. Ta, A. Elmoataz, and O. Lézoray. [*Partial Difference Equations over Graphs: Morphological Processing of Arbitrary Discrete Data*](https://doi.org/10.1007/978-3-540-88690-7_50). European Conference on Computer Vision (ECCV), LNCS 5304, 668–680, 2008.
+- Y.-L. You and M. Kaveh. *Fourth-Order Partial Differential Equations for Noise Removal*. IEEE Transactions on Image Processing, 9(10), 1723–1730, 2000.
+- P. Lindqvist. [*Notes on the p-Laplace Equation*](https://www.math.ntnu.no/~lqvist/p-laplace.pdf). University of Jyväskylä, Department of Mathematics and Statistics, Report 102, 2006.
+- G. Aronsson. *Extension of Functions Satisfying Lipschitz Conditions*. Arkiv för Matematik, 6(6), 551–561, 1967.
+
+### Software
+
+- [*Pytorch_pdegraph*](https://github.com/aGIToz/Pytorch_pdegraph): PyTorch library used for graph PDE operators.
 
 ---
